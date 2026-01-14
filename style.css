@@ -222,6 +222,10 @@ width:60%;
 
 @media (max-width: 768px) {
 
+    .logo img{
+                width:40%;
+                }
+
     /* Altura un poco menor en mobile */
     .hero-carousel {
         height: 100vh;
@@ -261,4 +265,5 @@ width:60%;
         padding: 10px 22px;
         font-size: 0.95rem;
     }
+
 }
