@@ -222,9 +222,29 @@ width:60%;
 
 @media (max-width: 768px) {
 
-    .logo img{
-                width:40%;
-                }
+      .navbar > .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    flex: 1;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-collapse {
+    background: rgba(0,0,0,0.95);
+    margin-top: 12px;
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  .navbar-nav {
+    gap: 12px;
+  }
 
     /* Altura un poco menor en mobile */
     .hero-carousel {
@@ -267,3 +287,4 @@ width:60%;
     }
 
 }
+
